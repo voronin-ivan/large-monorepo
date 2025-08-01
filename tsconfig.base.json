@@ -320,7 +320,12 @@
       "warp-drive-manager-important-feature-9": [
         "packages/warp-drive-manager/important-feature-9/src/index.ts"
       ]
-    }
+    },
+    "plugins": [{
+      "name": "ts-scope-trimmer-plugin",
+      "enabled": false,
+      "alwaysInclude": ["**/*/next-env.d.ts", "apps/crew/global.d.ts", "apps/*/types/**"]
+    }]
   },
   "exclude": ["node_modules", "tmp"]
 }
