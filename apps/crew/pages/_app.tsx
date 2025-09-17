@@ -2,6 +2,9 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
 
+// uncommenting this import should bring casing error
+// import featureUpperCase from './important-feature-uppercase';
+
 // some global vars from different files
 GLOBAL_APP_VAR;
 GLOBAL_NEXT_VAR;

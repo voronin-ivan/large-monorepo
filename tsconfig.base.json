@@ -324,7 +324,7 @@
     "plugins": [{
       "name": "ts-scope-trimmer-plugin",
       "enabled": false,
-      "alwaysInclude": ["**/*/next-env.d.ts", "apps/crew/global.d.ts", "apps/*/types/**"]
+      "alwaysInclude": ["**/*/next-env.d.ts", "apps/crew/Global_Uppercase.d.ts", "apps/*/types/**"]
     }]
   },
   "exclude": ["node_modules", "tmp"]

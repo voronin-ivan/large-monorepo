@@ -13,6 +13,6 @@
     "isolatedModules": true,
     "incremental": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts", "global.d.ts", "types/global.ts"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx", "next-env.d.ts", "Global_Uppercase.d.ts", "types/global.ts"],
   "exclude": ["node_modules"]
 }
